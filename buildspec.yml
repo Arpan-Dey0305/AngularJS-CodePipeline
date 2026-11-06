@@ -1,0 +1,6 @@
+  build:
+    commands:
+      - echo Preparing AngularJS deployment package
+      - mkdir -p output/scripts
+      - cp index.html app.js style.css appspec.yml output/
+      - cp scripts/start_server.sh output/scripts/
